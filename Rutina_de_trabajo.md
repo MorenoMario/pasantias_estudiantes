@@ -29,7 +29,10 @@ Existen diferentes comandos para ingresar a la matrix de Linux. Puedes buscar en
 -etc
 
 ```
-###ejemplo
+### Ejemplo
+
+```
+cd /Documentos/01_genomas
 
 ```
 cd
