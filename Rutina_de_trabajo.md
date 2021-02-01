@@ -33,6 +33,5 @@ Existen diferentes comandos para ingresar a la matrix de Linux. Puedes buscar en
 
 ```
 cd /Documentos/01_genomas
-
+mkdir 02_analisis
 ```
-cd
