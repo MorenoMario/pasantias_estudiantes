@@ -2,8 +2,9 @@
 
 ## Entrar al servidor
 Antes de comenzar con cualquier tipo de trabajo en la pantalla negra, debemos aprender a conectarnos de forma remota. 
-##### Nota: Descagar dos programas muy útiles [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) y [winscp](https://winscp.net/eng/download.php)
-### En putty
+##### Nota: Descagar dos programas muy útiles [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), [winscp](https://winscp.net/eng/download.php) y [Notepad++](https://notepad-plus-plus.org/downloads/)
+
+## En putty
 ```mmorenos.ddns.net
 -user: javier
 -Pass: javier2021
@@ -41,12 +42,13 @@ mkdir 02_analisis
 
 `Deposita acá tu respuesta:` Javier... 
 
-## Tarea 2:
+### Tarea 2:
 >Acceder a la base de datos del [NCBI](https://www.ncbi.nlm.nih.gov/)
 -Buscar la base de datos de genomas del NCBI
 -Descargar un genoma de referencia [ejemplo](https://www.ncbi.nlm.nih.gov/genome/?term=E.%20coli)
--Descargar archivo [Fasta](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.fna.gz) del genoma
--Descargar archivo [GFF](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.gff.gz) del genoma
+-Descargar archivo [Fasta](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.fna.gz) del genoma.
+-Descargar archivo [GFF](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.gff.gz) del genoma.
+-Descargar archivo [GBK](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.gbff.gz) del genoma.
 
 > Que formato logras identificar?
 
@@ -56,11 +58,12 @@ mkdir 02_analisis
 
 `Deposita acá tu respuesta:` Javier...
 
-## Para comenzar a explorar los genomas descargados vamos a usar un programa llamado [Geneious](https://www.geneious.com/download/). El programa es muy útil, pero es pagado :( , , por lo tanto vamos a usar la version trial de 14 días.
+## Para comenzar a explorar los genomas descargados vamos a usar un programa llamado [Geneious](https://www.geneious.com/download/). El programa es muy útil, pero es pagado :( , por lo tanto vamos a usar la version trial de 14 días.
 
 > Crear una carpeta llamada `"02_genomas_ncbi"` (usar comandos linux)
 > Copiar los archivos desgargados desde el `NCBI` a la carpeta `"02_genomas_ncbi"` usando el programa `winscp`
 
-Cargar los archivos de genómas y GFF en Geneious c
-> Alguna diferencia entre archivos?
+Cargar los archivos de `genómas` y `GFF` en Geneious
+
+### Explorar en programas 
 
