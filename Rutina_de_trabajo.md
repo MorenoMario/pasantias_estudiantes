@@ -74,12 +74,14 @@ Cargar los archivos de `genomas`, `GBK`  y `GFF` en Geneious
 
 De acuerdo a lo que observamos el archivo GFF es muy útil para identificar las coordenadas de los genes de un genoma.
 
-Vamos a usar esta información para extraer los genes ribosomales de los genomas tanto descargados
+#Vamos a usar esta información para extraer los genes ribosomales de los genomas tanto descargados
 
-Ocuparemos inicialmente un programa llamado [`Barnap`](https://github.com/tseemann/barrnap)
+Inicialmente un programa llamado [`Barnap`](https://github.com/tseemann/barrnap)
 
->
+> barrnap --threads 10 --kingdom bac --outseq output.txt input.fasta
 
-http://www.cbs.dtu.dk/services/RNAmmer/
+### Explorar en archivo de salida 
+- `Deposita acá tu respuesta:` output.txt...
 
-
+Esta información es útil cuando tenemos un computador/servidor donde podamos correr el programa, si no tenemos esta opción podemos ocupar la plataforma online de 
+[`RNAmmer`](http://www.cbs.dtu.dk/services/RNAmmer/)
