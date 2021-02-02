@@ -88,5 +88,9 @@ Esta información es útil cuando tenemos un computador/servidor donde podamos c
 
 - `Que información tiene la salida?:` output.txt...
 
+Descargar archivo fasta de cada genoma depositado en la 
 
 # Día 2
+## Identificación de genes de interes en los genomas
+
+
