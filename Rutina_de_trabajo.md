@@ -35,3 +35,8 @@ Existen diferentes comandos para ingresar a la matrix de Linux. Puedes buscar en
 cd /Documentos/01_genomas
 mkdir 02_analisis
 ```
+### Tarea 1: Acceder a los genomas depositados en la carpeta "01_genomas" en tus Documentos.
+> Explorar y abrir cada uno de los archivos depositados
+> Que formato logras identificar?
+>`Deposita acá tu respuesta`: Javier... 
+
