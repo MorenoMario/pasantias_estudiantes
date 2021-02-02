@@ -79,6 +79,9 @@ De acuerdo a lo que observamos el archivo GFF es muy útil para identificar las 
 
 #Vamos a usar esta información para extraer los genes ribosomales de los genomas tanto descargados
 
+# Día 2
+## Identificación de genes de interes en los genomas
+
 Inicialmente un programa llamado [`Barnap`](https://github.com/tseemann/barrnap)
 
 > barrnap --threads 10 --kingdom bac --outseq output.txt input.fasta
@@ -93,7 +96,5 @@ Esta información es útil cuando tenemos un computador/servidor donde podamos c
 
 Descargar archivo fasta de cada genoma depositado en la 
 
-# Día 2
-## Identificación de genes de interes en los genomas
 
 
