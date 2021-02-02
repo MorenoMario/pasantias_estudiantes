@@ -5,7 +5,8 @@ Antes de comenzar con cualquier tipo de trabajo en la pantalla negra, debemos ap
 ##### Nota: Descagar dos programas muy útiles [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), [winscp](https://winscp.net/eng/download.php) y [Notepad++](https://notepad-plus-plus.org/downloads/)
 
 ## En putty
-```mmorenos.ddns.net
+```
+-mmorenos.ddns.net
 -user: javier
 -Pass: javier2021
 ```
