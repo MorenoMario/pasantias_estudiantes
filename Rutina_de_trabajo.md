@@ -81,7 +81,12 @@ Inicialmente un programa llamado [`Barnap`](https://github.com/tseemann/barrnap)
 > barrnap --threads 10 --kingdom bac --outseq output.txt input.fasta
 
 ### Explorar en archivo de salida 
-- `Deposita acá tu respuesta:` output.txt...
+- `Que información tiene el archivo?:` output.txt...
 
 Esta información es útil cuando tenemos un computador/servidor donde podamos correr el programa, si no tenemos esta opción podemos ocupar la plataforma online de 
 [`RNAmmer`](http://www.cbs.dtu.dk/services/RNAmmer/)
+
+- `Que información tiene la salida?:` output.txt...
+
+
+# Día 2
