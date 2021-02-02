@@ -63,9 +63,23 @@ mkdir 02_analisis
 > Crear una carpeta llamada `"02_genomas_ncbi"` (usar comandos linux)
 > Copiar los archivos desgargados desde el `NCBI` a la carpeta `"02_genomas_ncbi"` usando el programa `winscp`
 
-Cargar los archivos de `genómas`, `GBK`  y `GFF` en Geneious
+Cargar los archivos de `genomas`, `GBK`  y `GFF` en Geneious
 
-### Explorar en programas y ver que información tienes en cáda archivo
+### Explorar en programas y ver que información tienes en cada archivo
 - `Deposita acá tu respuesta:` FASTA...
 - `Deposita acá tu respuesta:` GBK...
 - `Deposita acá tu respuesta:` GFF...
+
+## Identificación de genes de interes en los genomas
+
+De acuerdo a lo que observamos el archivo GFF es muy útil para identificar las coordenadas de los genes de un genoma.
+
+Vamos a usar esta información para extraer los genes ribosomales de los genomas tanto descargados
+
+Ocuparemos inicialmente un programa llamado [`Barnap`](https://github.com/tseemann/barrnap)
+
+>
+
+http://www.cbs.dtu.dk/services/RNAmmer/
+
+
