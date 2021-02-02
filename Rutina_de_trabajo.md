@@ -28,7 +28,7 @@ Existen diferentes comandos para ingresar a la matrix de Linux. Puedes buscar en
 - cp: copiar archivo
 - cp -r : copiar directorio
 - rm : borrar (usar con sabiduria)
-
+- mv : mover directorio/archivo a otro directorio
 - etc....
 
 ```
