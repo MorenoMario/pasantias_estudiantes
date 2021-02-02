@@ -11,7 +11,7 @@ Antes de comenzar con cualquier tipo de trabajo en la pantalla negra, debemos ap
 -Pass: javier2021
 ```
 
-## Compandos básicos Linux
+## Comandos básicos Linux
 Existen diferentes comandos para ingresar a la matrix de Linux. Puedes buscar en la web hay muchos [Link](http://hpc.aut.uah.es/~jmruiz/Descarga_LE/Pract_1_Comandos_Linux.pdf) con los más basicos
 
 ```
