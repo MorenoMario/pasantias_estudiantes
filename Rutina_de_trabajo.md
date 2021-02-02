@@ -17,6 +17,7 @@ Existen diferentes comandos para ingresar a la matrix de Linux. Puedes buscar en
 ```
 
 - cd : entrar a directorio
+- cd .. : retroceder al directorio anterior
 - pwd : conocer el directorio donde estoy
 - ls : desplegar lista de archivos en directorio
 - ll : desplegar lista de archivo con más info.
