@@ -58,12 +58,14 @@ mkdir 02_analisis
 
 `Deposita acá tu respuesta:` Javier...
 
-## Para comenzar a explorar los genomas descargados vamos a usar un programa llamado [Geneious](https://www.geneious.com/download/). El programa es muy útil, pero es pagado :( , por lo tanto vamos a usar la version trial de 14 días.
+### Para comenzar a explorar los genomas descargados vamos a usar un programa llamado [Geneious](https://www.geneious.com/download/). El programa es muy útil, pero es pagado :( , por lo tanto vamos a usar la version trial de 14 días.
 
 > Crear una carpeta llamada `"02_genomas_ncbi"` (usar comandos linux)
 > Copiar los archivos desgargados desde el `NCBI` a la carpeta `"02_genomas_ncbi"` usando el programa `winscp`
 
 Cargar los archivos de `genómas` y `GFF` en Geneious
 
-### Explorar en programas 
-
+### Explorar en programas y ver que información tienes en cáda archivo
+`Deposita acá tu respuesta:` FASTA...
+`Deposita acá tu respuesta:` GBK...
+`Deposita acá tu respuesta:` GFF...
