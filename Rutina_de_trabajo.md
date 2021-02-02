@@ -49,8 +49,12 @@ mkdir 02_analisis
 -Descargar archivo [GFF](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.gff.gz) del genoma
 
 > Que formato logras identificar?
+
 `Deposita acá tu respuesta:` Javier...
+
 > Alguna diferencia entre archivos?
+
 `Deposita acá tu respuesta:` Javier...
+
 
 
