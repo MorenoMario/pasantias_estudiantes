@@ -29,7 +29,7 @@ Existen diferentes comandos para ingresar a la matrix de Linux. Puedes buscar en
 - cp -r : copiar directorio
 - rm : borrar (usar con sabiduria)
 - mv : mover directorio/archivo a otro directorio
-- etc....
+- head: muestra cabecera de un/unos archivos
 
 ```
 ### Ejemplo
