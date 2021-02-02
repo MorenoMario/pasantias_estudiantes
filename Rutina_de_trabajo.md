@@ -38,5 +38,19 @@ mkdir 02_analisis
 ### Tarea 1: Acceder a los genomas depositados en la carpeta "01_genomas" en tus Documentos.
 > Explorar y abrir cada uno de los archivos depositados
 > Que formato logras identificar?
->`Deposita acá tu respuesta`: Javier... 
+
+`Deposita acá tu respuesta:` Javier... 
+
+## Tarea 2:
+>Acceder a la base de datos del [NCBI](https://www.ncbi.nlm.nih.gov/)
+-Buscar la base de datos de genomas del NCBI
+-Descargar un genoma de referencia [ejemplo](https://www.ncbi.nlm.nih.gov/genome/?term=E.%20coli)
+-Descargar archivo [fasta](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.fna.gz) del genoma
+-Descargar archivo [GFF](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.gff.gz) del genoma
+
+> Que formato logras identificar?
+`Deposita acá tu respuesta:` Javier...
+> Alguna diferencia entre archivos?
+`Deposita acá tu respuesta:` Javier...
+
 
