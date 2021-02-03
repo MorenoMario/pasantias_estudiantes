@@ -110,19 +110,6 @@ Como una sugerencia -(una fueeerte sugerencia)- debes leer el artículo [`Carl W
 
  - `Que información tiene la salida?:` Javier... (BLAST webserver)...
 
--Descargar la secuencia de los primeros 10 Best Blast Hits (BBH)
--Cargar las secuencias del BBH en Geneius
--Realizar un alineamiento múltiple usando las secuencias del 16S descargadas ( 10 seqs. ) y el 16S rRNA de *E.coli* 
--
-> Usar Muscle o Clustal y observar la salida
-
-- `Que información tiene el alineamiento?:` Javier... 
-- `Que muestran las distintas columnas del alineamiento?`Javier... 
-- `Que representan las variaciones y las conservaciones en el alineamiento?:` Javier... 
-
-### Hacer una filogenia del 16S rRNA usando [MEGAX](https://www.megasoftware.net/)
-
-
 ### Tarea:
 
 - `Completar la tabla las coordenadas de los genes ribosomales 16S rRNA de los genomas bacterianos asociados a esponjas (BAE):`
@@ -136,4 +123,22 @@ Como una sugerencia -(una fueeerte sugerencia)- debes leer el artículo [`Carl W
 |Genoma<br />name  | Best<br />Hit | %/> identidad  | %/> cobertura |
 | :---  | :---  | :--- | :--- | 
 | Rellene | Rellene | Rellene | Rellene |
+
+### Tarea:
+
+#Día 3
+
+-Descargar la secuencia de los primeros 5 Best Blast Hits (BBH)
+-Cargar las secuencias del BBH en Geneius
+-Realizar un alineamiento múltiple usando las secuencias del 16S descargadas ( 10 seqs. ) y el 16S rRNA de *E.coli* 
+-
+> Usar Muscle o Clustal y observar la salida
+
+- `Que información tiene el alineamiento?:` Javier... 
+- `Que muestran las distintas columnas del alineamiento?`Javier... 
+- `Que representan las variaciones y las conservaciones en el alineamiento?:` Javier... 
+
+### Hacer una filogenia del 16S rRNA usando [MEGAX](https://www.megasoftware.net/)
+
+Exportar alineamiento desde 
 
