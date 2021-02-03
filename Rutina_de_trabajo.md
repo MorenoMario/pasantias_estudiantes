@@ -120,7 +120,7 @@ Como una sugerencia -(una fueeerte sugerencia)- debes leer el artículo [`Carl W
 
 - `Anotar la información de salida del alineamiento usando Blast del gen ribosomal 16S de las BAE:`
 
-|Genoma<br />name  | Best<br />Hit | %/> identidad  | %/> cobertura |
+|Genoma<br />name  | Best<br />Hit | %/<br />identidad  | %<br /> cobertura |
 | :---  | :---  | :--- | :--- | 
 | Rellene | Rellene | Rellene | Rellene |
 
@@ -165,7 +165,7 @@ Una vez eliminemos regiones del alineamiento pobremente conservadas realizamos l
 ### Tarea:
 - `completar la información clave ? ` Javier...
 
-|Genoma<br />name  | Best<br />Model | Informative/> sites  | Nº original<br />positions |
+|Genoma<br />name  | Best<br />Model | Informative<br />sites  | Nº original<br />positions |
 | :---  | :---  | :--- | :--- | 
 | Rellene | Rellene | Rellene | Rellene |
 
