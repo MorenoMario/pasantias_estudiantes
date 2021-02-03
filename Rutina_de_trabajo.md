@@ -108,9 +108,7 @@ Esta información es útil cuando tenemos un computador/servidor donde podamos c
 Ahora comenzaremos con la identificación taxonómica de *E. coli*. Eso no sería posible sin `Woese y Fox`, quienes descubrieron los 3 dominios de la vida usando los genes ribosomales. 
 Como una sugerencia -(una fueeerte sugerencia)- debes leer el artículo [`Carl Woese y George Fox, 1977`](https://sci-hub.st/https://www.pnas.org/content/74/11/5088).
 
-###
-
-Lo primeros será realizar un alineamiento del gen 16S rRNA de *E. coli* usando [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) contra la base de datos de nucleótidos del NCBI
+### Lo primeros será realizar un alineamiento del gen 16S rRNA de *E. coli* usando [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) contra la base de datos de nucleótidos del NCBI
 
  - `Que información tiene la salida?:` Javier... (BLAST webserver)...
 
@@ -120,12 +118,11 @@ Lo primeros será realizar un alineamiento del gen 16S rRNA de *E. coli* usando 
 4. Realizar un segundo alineamiento usando las mismas seqs. anteriores y incluir esta seqs [*Colwellia psychrerythraea*](https://www.ncbi.nlm.nih.gov/nuccore/NR_114405.1)
 
 - `Que información tiene el alineamiento?:` Javier... 
-- `Hay diferencias entre los alineamientos?:`
+- `Hay diferencias entre los alineamientos?:` Javier... 
 
 
-> 
-
-Visualizador de arboles [itol]https://itol.embl.de/
+> Hacer filogenia usando el programa [MEGAX](https://www.megasoftware.net/)
+> Visualizador de arboles [itol](https://itol.embl.de/)
 
 
 ### Tarea:
