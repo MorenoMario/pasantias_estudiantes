@@ -129,9 +129,13 @@ Como una sugerencia -(una fueeerte sugerencia)- debes leer el artículo [`Carl W
 
 - `Completar la tabla las coordenadas de los genes ribosomales 16S rRNA de los genomas bacterianos asociados a esponjas (BAE):`
 
-|Genoma<br />name  | Coordenada<br />inicio | Coordenada<br />final | Ribosomal<br />16S/23S/5S |
+|Genoma<br />Acc. ID | Coordenada<br />inicio | Coordenada<br />final | Ribosomal<br />16S/23S/5S | a
 | :---  | :---  | :--- | :--- | 
 | Rellene | Rellene | Rellene | Rellene |
+| Rellene | Rellene | Rellene | Rellene |
+| Rellene | Rellene | Rellene | Rellene |
+| Rellene | Rellene | Rellene | Rellene |
+
 
 - `Anotar la información de salida del alineamiento usando Blast del gen ribosomal 16S de las BAE:`
 
