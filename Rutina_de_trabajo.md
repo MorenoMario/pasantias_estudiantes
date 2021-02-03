@@ -9,6 +9,10 @@ Antes de comenzar con cualquier tipo de trabajo en la pantalla negra, debemos ap
 -mmorenos.ddns.net
 -user: javier
 -Pass: javier2021
+
+-user: gi
+-Pass: gi2021
+
 ```
 
 ## Comandos básicos Linux
