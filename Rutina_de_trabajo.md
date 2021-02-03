@@ -6,7 +6,8 @@ Antes de comenzar con cualquier tipo de trabajo en la pantalla negra, debemos ap
 
 ## En putty
 ```
--mmorenos.ddns.net
+-ip: mmorenos.ddns.net
+
 -user: javier
 -Pass: javier2021
 
@@ -119,7 +120,13 @@ Lo primeros será realizar un alineamiento del gen 16S rRNA de *E. coli* usando 
 4. Realizar un segundo alineamiento usando las mismas seqs. anteriores y incluir esta seqs [*Colwellia psychrerythraea*](https://www.ncbi.nlm.nih.gov/nuccore/NR_114405.1)
 
 - `Que información tiene el alineamiento?:` Javier... 
-- `Que infor?:`
+- `Hay diferencias entre los alineamientos?:`
+
+
+> 
+
+Visualizador de arboles [itol]https://itol.embl.de/
+
 
 ### Tarea:
 
