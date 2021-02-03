@@ -43,7 +43,7 @@ mv 02_analisis ../
 > Explorar y abrir cada uno de los archivos depositados
 > Que formato logras identificar?
 
-`Deposita acá tu respuesta:` Javier... 
+`Deposita acá tu respuesta:` El formato de los archivos es .fa o FASTA, se puede observar que la primera línea iniciada por un ">", el nodo, la longitud de la secuencia y la cobertura correspondiente.
 
 ### Tarea 2:
 >Acceder a la base de datos del [NCBI](https://www.ncbi.nlm.nih.gov/)
@@ -55,11 +55,11 @@ mv 02_analisis ../
 
 > Que formato logras identificar?
 
-`Deposita acá tu respuesta:` Javier...
+`Deposita acá tu respuesta:` Se identifican 3 formatos, FASTA(.fa), GFF(.gff) y GeneBank(.gbff) respectivamente
 
 > Alguna diferencia entre archivos?
 
-`Deposita acá tu respuesta:` Javier...
+`Deposita acá tu respuesta:` El archivo FASTA nos muestra la secuencia con una información mínima, en cuanto a GBK este nos enseña una interfaz con información relevante a las bases de datos de NCBI. El archivo GFF nos muestra las regiones respectivas de la secuencia, su función y localización.
 
 ### Para comenzar a explorar los genomas descargados vamos a usar un programa llamado [Geneious](https://www.geneious.com/download/). El programa es muy útil, pero es pagado :( , por lo tanto vamos a usar la version trial de 14 días.
 
