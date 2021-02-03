@@ -120,7 +120,7 @@ Como una sugerencia -(una fueeerte sugerencia)- debes leer el artículo [`Carl W
 - `Que información tiene el alineamiento?:` Javier... 
 - `Hay diferencias entre los alineamientos?:` Javier... 
 
-
+### Tarea:
 > Hacer filogenia usando el programa [MEGAX](https://www.megasoftware.net/)
 > Visualizador de arboles [itol](https://itol.embl.de/)
 
