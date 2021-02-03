@@ -112,24 +112,14 @@ Como una sugerencia -(una fueeerte sugerencia)- debes leer el artículo [`Carl W
 
  - `Que información tiene la salida?:` Javier... (BLAST webserver)...
 
-1. Descargar la secuencia de los primeros 10 Best Blast Hits (BBH)
-2. Cargar las secuencias del BBH en Geneius
-3. Realizar un alineamiento múltiple usando las secuencias del 16S descargadas ( 10 seqs. ) y el 16S rRNA de *E.coli* 
-4. Realizar un segundo alineamiento usando las mismas seqs. anteriores y incluir esta seqs [*Colwellia psychrerythraea*](https://www.ncbi.nlm.nih.gov/nuccore/NR_114405.1)
-
-- `Que información tiene el alineamiento?:` Javier... 
-- `Hay diferencias entre los alineamientos?:` Javier... 
-
-### Tarea:
-> Hacer filogenia usando el programa [MEGAX](https://www.megasoftware.net/)
-> Visualizador de arboles [itol](https://itol.embl.de/)
-
+1. Descargar la secuencia de los primeros 5 Best Blast Hits (BBH)
+2. Descargar las secuencias del BBH y cargarlas en Geneius
 
 ### Tarea:
 
 - `Completar la tabla las coordenadas de los genes ribosomales 16S rRNA de los genomas bacterianos asociados a esponjas (BAE):`
 
-|Genoma<br />Acc. ID | Coordenada<br />inicio | Coordenada<br />final | Ribosomal<br />16S/23S/5S | a
+|Genoma<br />Acc. ID | Coordenada<br />inicio | Coordenada<br />final | Ribosomal<br />16S/23S/5S |
 | :---  | :---  | :--- | :--- | 
 | Rellene | Rellene | Rellene | Rellene |
 | Rellene | Rellene | Rellene | Rellene |
@@ -141,9 +131,20 @@ Como una sugerencia -(una fueeerte sugerencia)- debes leer el artículo [`Carl W
 
 |Genoma<br />name  | Best<br />Hit | %/> identidad  | %/> cobertura |
 | :---  | :---  | :--- | :--- | 
-| Rellene | Rellene | Rellene | Rellene |
+| E16_8 | Nesterenkonia sp. AC84 (AJ717365.1) | Rellene | Rellene |
 
 
-# Día 3  
+# Día 3
+
+1. Realizar un alineamiento múltiple usando las secuencias del 16S descargadas ( 5 seqs. ) y el 16S rRNA de *E.coli* 
+2. Realizar un segundo alineamiento usando las mismas seqs. anteriores y incluir esta seqs [*Colwellia psychrerythraea*](https://www.ncbi.nlm.nih.gov/nuccore/NR_114405.1)
+
+- `Que información tiene el alineamiento?:` Javier... 
+- `Hay diferencias entre los alineamientos?:` Javier... 
+
+### Tarea:
+> Hacer filogenia usando el programa [MEGAX](https://www.megasoftware.net/)
+> Visualizador de arboles [itol](https://itol.embl.de/)
+
 
 prokka --outdir directorio --force --prefix tag --cpus n file.fast
