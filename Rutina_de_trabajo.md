@@ -45,7 +45,7 @@ mv 02_analisis ../
 
 `Deposita acá tu respuesta:` El formato de los archivos es .fa o FASTA, se puede observar que la primera línea iniciada por un ">", el nodo, la longitud de la secuencia y la cobertura correspondiente.
 
-### Tarea 2:
+### Tarea:
 >Acceder a la base de datos del [NCBI](https://www.ncbi.nlm.nih.gov/)
 -Buscar la base de datos de genomas del NCBI
 -Descargar un genoma de referencia [ejemplo](https://www.ncbi.nlm.nih.gov/genome/?term=E.%20coli)
@@ -81,17 +81,18 @@ De acuerdo a lo que observamos el archivo GFF es muy útil para identificar las 
 
 # Día 2
 
-##Hoy usaremos la información contenida en el archivo `.gff` para extraer algunos genes de interés.
+## Hoy usaremos la información contenida en el archivo `.gff` para extraer algunos genes de interés.
 
 Inicialmente usaremos la herramienta [`Barnap`](https://github.com/tseemann/barrnap) y el webserver de [`RNAmmer`](http://www.cbs.dtu.dk/services/RNAmmer/)
 
 Extraeremos las coordenadas de la posición de los genes ribosomales del genoma de *E. coli* (archivo.fasta)
 
-
 > barrnap --threads 10 --kingdom bac --outseq output.txt input.fasta
 
 ### Explorar en archivo de salida 
 - `Que información tiene el archivo?:` output.txt...
+
+
 
 Esta información es útil cuando tenemos un computador/servidor donde podamos correr el programa, si no tenemos esta opción podemos ocupar la plataforma online de 
 [`RNAmmer`](http://www.cbs.dtu.dk/services/RNAmmer/)
@@ -100,5 +101,15 @@ Esta información es útil cuando tenemos un computador/servidor donde podamos c
 
 Descargar archivo fasta de cada genoma depositado en la 
 
+### Tarea:
 
+- `Completar la tabla las coordenadas de los genes ribosomales 16S rRNA de los genomas bacterianos asociados a esponjas (BAE) :`
+|Genoma<br />name  | Coordenada<br />inicio | Coordenada<br />final | Ribosomal<br />16S/23S/5S |
+| :---  | :---  |:--- |:--- | 
+| Rellene | Rellene | Rellene | Rellene |
 
+- `Anotar la información de salida del alineamiento usando Blast del gen ribosomal 16S de las BAE:`
+
+|Genoma<br />name  | Best<br />Hit | %/> identidad  | %/> cobertura   
+| :---  | :---  | :--- | :--- | 
+| Rellene | Rellene | Rellene | Rellene |
