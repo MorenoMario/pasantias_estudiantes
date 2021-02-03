@@ -80,9 +80,13 @@ De acuerdo a lo que observamos el archivo GFF es muy útil para identificar las 
 #Vamos a usar esta información para extraer los genes ribosomales de los genomas tanto descargados
 
 # Día 2
-## Identificación de genes de interes en los genomas
 
-Inicialmente un programa llamado [`Barnap`](https://github.com/tseemann/barrnap)
+##Hoy usaremos la información contenida en el archivo `.gff` para extraer algunos genes de interés.
+
+Inicialmente usaremos la herramienta [`Barnap`](https://github.com/tseemann/barrnap) y el webserver de [`RNAmmer`](http://www.cbs.dtu.dk/services/RNAmmer/)
+
+Extraeremos las coordenadas de la posición de los genes ribosomales del genoma de *E. coli* (archivo.fasta)
+
 
 > barrnap --threads 10 --kingdom bac --outseq output.txt input.fasta
 
