@@ -103,9 +103,10 @@ Descargar archivo fasta de cada genoma depositado en la
 
 ### Tarea:
 
-- `Completar la tabla las coordenadas de los genes ribosomales 16S rRNA de los genomas bacterianos asociados a esponjas (BAE) :`
+- `Completar la tabla las coordenadas de los genes ribosomales 16S rRNA de los genomas bacterianos asociados a esponjas (BAE):`
+
 |Genoma<br />name  | Coordenada<br />inicio | Coordenada<br />final | Ribosomal<br />16S/23S/5S |
-| :---  | :---  |:--- |:--- | 
+| :---  | :---  | :--- | :--- | 
 | Rellene | Rellene | Rellene | Rellene |
 
 - `Anotar la información de salida del alineamiento usando Blast del gen ribosomal 16S de las BAE:`
