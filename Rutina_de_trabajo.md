@@ -140,6 +140,6 @@ Como una sugerencia -(una fueeerte sugerencia)- debes leer el artículo [`Carl W
 | Rellene | Rellene | Rellene | Rellene |
 
 
-# Día 3
+# Día 3  
 
 prokka --outdir directorio --force --prefix tag --cpus n file.fast
