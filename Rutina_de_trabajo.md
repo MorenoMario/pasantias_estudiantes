@@ -109,9 +109,12 @@ Lo primeros será realizar un alineamiento del gen 16S rRNA de *E. coli* usando 
 
  - `Que información tiene la salida?:` Javier... (BLAST webserver)...
 
->Descargar los primeros 10 Hits obtenidos del alineamiento
->
+-Descargar la secuencia de los primeros 10 Best Blast Hits (BBH)
+-Cargar las secuencias del BBH en Geneius
+-Realizar un alineamiento múltiple usando las secuencias del 16S descargadas ( 10 seqs. ) y el 16S rRNA de *E.coli* 
 
+- `Que información tiene el alineamiento?:` Javier... 
+- `Que infor?:`
 
 ### Tarea:
 
@@ -123,7 +126,7 @@ Lo primeros será realizar un alineamiento del gen 16S rRNA de *E. coli* usando 
 
 - `Anotar la información de salida del alineamiento usando Blast del gen ribosomal 16S de las BAE:`
 
-|Genoma<br />name  | Best<br />Hit | %/> identidad  | %/> cobertura   
+|Genoma<br />name  | Best<br />Hit | %/> identidad  | %/> cobertura |
 | :---  | :---  | :--- | :--- | 
 | Rellene | Rellene | Rellene | Rellene |
 
