@@ -101,9 +101,16 @@ Esta información es útil cuando tenemos un computador/servidor donde podamos c
 ### Extraer y descargar la región del gen 16S rRNA desde el genoma de *E. coli* en formato `.fasta` y cargarlo en `Geneious`
 
 Ahora comenzaremos con la identificación taxonómica de *E. coli*. Eso no sería posible sin `Woese y Fox`, quienes descubrieron los 3 dominios de la vida usando los genes ribosomales. 
-Como una sugerencia (casi obligación) debes leer el artículo [`Carl Woese y George Fox, 1977`](https://sci-hub.st/https://www.pnas.org/content/74/11/5088).
+Como una sugerencia -(una fueeerte sugerencia)- debes leer el artículo [`Carl Woese y George Fox, 1977`](https://sci-hub.st/https://www.pnas.org/content/74/11/5088).
 
+###
 
+Lo primeros será realizar un alineamiento del gen 16S rRNA de *E. coli* usando [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) contra la base de datos de nucleótidos del NCBI
+
+ - `Que información tiene la salida?:` Javier... (BLAST webserver)...
+
+>Descargar los primeros 10 Hits obtenidos del alineamiento
+>
 
 
 ### Tarea:
@@ -119,3 +126,5 @@ Como una sugerencia (casi obligación) debes leer el artículo [`Carl Woese y Ge
 |Genoma<br />name  | Best<br />Hit | %/> identidad  | %/> cobertura   
 | :---  | :---  | :--- | :--- | 
 | Rellene | Rellene | Rellene | Rellene |
+
+Discutir al siguiente día 
