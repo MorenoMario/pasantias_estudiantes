@@ -1,7 +1,7 @@
 ##### Autor: Moreno-Pino 2021
 ##### Verano 2021
 ##### Genomica 1.0
-                                 # Día 1
+# Día 1
 
 ## Entrar al servidor
 Antes de comenzar con cualquier tipo de trabajo en la pantalla negra, debemos aprender a conectarnos de forma remota. 
