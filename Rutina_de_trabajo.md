@@ -124,15 +124,13 @@ Como una sugerencia -(una fueeerte sugerencia)- debes leer el artículo [`Carl W
 | :---  | :---  | :--- | :--- | 
 | Rellene | Rellene | Rellene | Rellene |
 
-### Tarea:
 
-#Día 3
+# Día 3
 
 -Descargar la secuencia de los primeros 5 Best Blast Hits (BBH)
--Cargar las secuencias del BBH en Geneius
--Realizar un alineamiento múltiple usando las secuencias del 16S descargadas ( 10 seqs. ) y el 16S rRNA de *E.coli* 
--
-> Usar Muscle o Clustal y observar la salida
+-Cargar las secuencias del BBH en `Geneius`
+-Realizar un alineamiento múltiple (por genoma) usando las secuencias del 16S descargadas ( 5 seqs. ) y el 16S rRNA de los genomas.
+-Usar Muscle o Clustal y observar la salida
 
 - `Que información tiene el alineamiento?:` Javier... 
 - `Que muestran las distintas columnas del alineamiento?`Javier... 
@@ -140,5 +138,37 @@ Como una sugerencia -(una fueeerte sugerencia)- debes leer el artículo [`Carl W
 
 ### Hacer una filogenia del 16S rRNA usando [MEGAX](https://www.megasoftware.net/)
 
-Exportar alineamiento desde 
+-Realizar una limpieza del alineamiento usando [Gblocks](http://molevol.cmima.csic.es/castresana/Gblocks_server.html), leer [documentación](http://molevol.cmima.csic.es/castresana/Gblocks/Gblocks_documentation.html)
 
+```
+
+1. sets the Minimum Number Of Sequences For A Conserved Position, i.e. it sets the threshold for the definition of conserved positions. This value must be bigger than half the number of sequences. Bigger values of this parameter DECREASE the selected number of positions.
+
+2. sets the Minimum Number Of Sequences For A Flank Position, i.e. it sets the threshold for the definition of flank positions. This value must be bigger than or equal to the Minimum Number Of Sequences For A Conserved Position. Bigger values of this parameter DECREASE the selected number of positions.
+
+3. sets the Maximum Number Of Contiguous Nonconserved Positions. All segments with contiguous nonconserved positions bigger than this value are rejected. Bigger values of this parameter INCREASE the selected number of positions.
+
+4. sets the Minimum Length Of A Block after gap cleaning. Blocks smaller than this value after gap cleaning are rejected. Bigger values of this parameter DECREASE the selected number of positions.
+```
+### Tarea: 
+- `investigar sobre los parametros usados en la versión webserver: son conservadoras? o muy flexibles? ` Javier...
+ 
+Una vez eliminemos regiones del alineamiento pobremente conservadas realizamos los siguientes pasos:
+
+
+1. Exportar el alineamiento generado en `Geneius`
+2. Cargar el alineamiento en alineamiento en `MEGAX`
+3. Estimar el mejor modelo de sustitución en cada uno de los alineamientos (hacer la prueba con un genoma) [info]https://www.ccg.unam.mx/~vinuesa/Cursos2RMBF/PDFs/C1/Tema4_modelos_de_sust_nt.pdf
+4. Realizar la filogenia usando tan solo 50 iteraciones, usando el modelo de sust. obtenido arriba
+5. Cargar la filogenia en [itol]https://itol.embl.de/upload.cgi
+
+### Tarea:
+- `completar la información clave ? ` Javier...
+
+|Genoma<br />name  | Best<br />Model | Informative/> sites  | Nº original<br />positions |
+| :---  | :---  | :--- | :--- | 
+| Rellene | Rellene | Rellene | Rellene |
+
+
+### Anotación funcional 
+$ prokka --outdir directorio --force --prefix tag --cpus n file.fasta
