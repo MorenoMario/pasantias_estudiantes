@@ -1,4 +1,6 @@
-###Autor: Moreno-Pino 2021
+### Autor: Moreno-Pino 2021
+### Verano 2021
+### Genomica 1.0
 # Día 1
 
 ## Entrar al servidor
