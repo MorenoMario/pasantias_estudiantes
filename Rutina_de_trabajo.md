@@ -153,15 +153,15 @@ Como una sugerencia -(una fueeerte sugerencia)- debes leer el artículo [`Carl W
 ### Tarea: 
 - `investigar sobre los parametros usados en la versión webserver: son conservadoras? o muy flexibles? ` Javier...
  
-Una vez eliminemos regiones del alineamiento pobremente conservadas realizamos los siguientes pasos:
+Una vez eliminemos regiones del alineamiento pobremente conservadas, realizaremos los siguientes pasos:
 
 
 1. Exportar el alineamiento generado en `Geneius`
 2. Cargar el alineamiento en alineamiento en `MEGAX`
-3. Estimar el mejor modelo de sustitución en cada uno de los alineamientos (hacer la prueba con un genoma) [info]https://www.ccg.unam.mx/~vinuesa/Cursos2RMBF/PDFs/C1/Tema4_modelos_de_sust_nt.pdf
+3. Estimar el mejor modelo de sustitución en cada uno de los alineamientos (hacer la prueba con un genoma) [info](https://www.ccg.unam.mx/~vinuesa/Cursos2RMBF/PDFs/C1/Tema4_modelos_de_sust_nt.pdf)
 4. Realizar la filogenia usando tan solo 50 iteraciones, usando el modelo de sust. obtenido arriba
 5. Cargar la filogenia en [itol]https://itol.embl.de/upload.cgi
-
+*opción para visualizar alineamientos en terminal [mpdunne](https://github.com/mpdunne/Alan)
 ### Tarea:
 - `completar la información clave ? ` Javier...
 
@@ -171,4 +171,19 @@ Una vez eliminemos regiones del alineamiento pobremente conservadas realizamos l
 
 
 ### Anotación funcional 
-$ prokka --outdir directorio --force --prefix tag --cpus n file.fasta
+
+Vamos a usar un anotador de genomas microbianos (bacterias y arqueas) muy usado llamado PROKKA. Javier debe leer el [Paper](https://academic.oup.com/bioinformatics/article/30/14/2068/2390517) de la herramienta.
+
+>prokka
+>$ prokka --outdir directorio --force --prefix tag --cpus n file.fasta
+
+Explorar las salidas
+
+### Tarea:
+
+- `Anotar todos los genómas de las BAS ` Javier...
+
+# Día 4
+
+
+
