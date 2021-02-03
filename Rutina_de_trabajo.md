@@ -6,14 +6,9 @@ Antes de comenzar con cualquier tipo de trabajo en la pantalla negra, debemos ap
 
 ## En putty
 ```
--ip: mmorenos.ddns.net
-
+-mmorenos.ddns.net
 -user: javier
 -Pass: javier2021
-
--user: gi
--Pass: gi2021
-
 ```
 
 ## Comandos básicos Linux
@@ -102,7 +97,7 @@ Esta información es útil cuando tenemos un computador/servidor donde podamos c
 >cargar genoma en formato `.fasta` al webserver de RNAmmer y examinar la salida
 
  - `Que información tiene la salida?:` Javier... (output.txt)...
- - `Que diferencian tienen las salida?:` Javier... 
+
 ### Extraer y descargar la región del gen 16S rRNA desde el genoma de *E. coli* en formato `.fasta` y cargarlo en `Geneious`
 
 Ahora comenzaremos con la identificación taxonómica de *E. coli*. Eso no sería posible sin `Woese y Fox`, quienes descubrieron los 3 dominios de la vida usando los genes ribosomales. 
@@ -112,39 +107,30 @@ Como una sugerencia -(una fueeerte sugerencia)- debes leer el artículo [`Carl W
 
  - `Que información tiene la salida?:` Javier... (BLAST webserver)...
 
-1. Descargar la secuencia de los primeros 5 Best Blast Hits (BBH)
-2. Descargar las secuencias del BBH y cargarlas en Geneius
+-Descargar la secuencia de los primeros 10 Best Blast Hits (BBH)
+-Cargar las secuencias del BBH en Geneius
+-Realizar un alineamiento múltiple usando las secuencias del 16S descargadas ( 10 seqs. ) y el 16S rRNA de *E.coli* 
+-
+> Usar Muscle o Clustal y observar la salida
+
+- `Que información tiene el alineamiento?:` Javier... 
+- `Que muestran las distintas columnas del alineamiento?`Javier... 
+- `Que representan las variaciones y las conservaciones en el alineamiento?:` Javier... 
+
+### Hacer una filogenia del 16S rRNA usando [MEGAX](https://www.megasoftware.net/)
+
 
 ### Tarea:
 
 - `Completar la tabla las coordenadas de los genes ribosomales 16S rRNA de los genomas bacterianos asociados a esponjas (BAE):`
 
-|Genoma<br />Acc. ID | Coordenada<br />inicio | Coordenada<br />final | Ribosomal<br />16S/23S/5S |
+|Genoma<br />name  | Coordenada<br />inicio | Coordenada<br />final | Ribosomal<br />16S/23S/5S |
 | :---  | :---  | :--- | :--- | 
 | Rellene | Rellene | Rellene | Rellene |
-| Rellene | Rellene | Rellene | Rellene |
-| Rellene | Rellene | Rellene | Rellene |
-| Rellene | Rellene | Rellene | Rellene |
-
 
 - `Anotar la información de salida del alineamiento usando Blast del gen ribosomal 16S de las BAE:`
 
 |Genoma<br />name  | Best<br />Hit | %/> identidad  | %/> cobertura |
 | :---  | :---  | :--- | :--- | 
-| E16_8 | Nesterenkonia sp. AC84 (AJ717365.1) | Rellene | Rellene |
+| Rellene | Rellene | Rellene | Rellene |
 
-
-# Día 3
-
-1. Realizar un alineamiento múltiple usando las secuencias del 16S descargadas ( 5 seqs. ) y el 16S rRNA de *E.coli* 
-2. Realizar un segundo alineamiento usando las mismas seqs. anteriores y incluir esta seqs [*Colwellia psychrerythraea*](https://www.ncbi.nlm.nih.gov/nuccore/NR_114405.1)
-
-- `Que información tiene el alineamiento?:` Javier... 
-- `Hay diferencias entre los alineamientos?:` Javier... 
-
-### Tarea:
-> Hacer filogenia usando el programa [MEGAX](https://www.megasoftware.net/)
-> Visualizador de arboles [itol](https://itol.embl.de/)
-
-
-prokka --outdir directorio --force --prefix tag --cpus n file.fast
