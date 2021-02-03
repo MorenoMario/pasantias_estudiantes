@@ -89,19 +89,19 @@ Extraeremos las coordenadas de la posición de los genes ribosomales del genoma 
 
 > barrnap --threads 10 --kingdom bac --outseq output.txt input.fasta
 
-### - `Que información tiene el archivo?:` Javier... (output.txt)...
+- `Que información tiene el archivo?:` Javier... (output.txt)...
 
 Esta información es útil cuando tenemos un computador/servidor donde podamos correr el programa, si no tenemos esta opción podemos ocupar la plataforma online de 
 [`RNAmmer`](http://www.cbs.dtu.dk/services/RNAmmer/)
 
 >cargar genoma en formato `.fasta` al webserver de RNAmmer y examinar la salida
 
-### - `Que información tiene la salida?:` Javier... (output.txt)...
+ - `Que información tiene la salida?:` Javier... (output.txt)...
 
-### Descargar la región del gen 16S rRNA desde el genoma de *E. coli* y cargar el archivo `.fasta` en `Geneious`
+### Extraer y descargar la región del gen 16S rRNA desde el genoma de *E. coli* en formato `.fasta` y cargarlo en `Geneious`
 
-Ahora comenzaremos con la identificación taxonómica de la bacteria. Como una sugerencia (casi obligación) debes leer el artículo [`Carl Woese y George Fox, 1977`](https://sci-hub.st/https://www.pnas.org/content/74/11/5088) donde se describe el descubrimiento de los 3 dominios de la vida usando los genes ribosomales.
-
+Ahora comenzaremos con la identificación taxonómica de *E. coli*. Eso no sería posible sin `Woese y Fox`, quienes descubrieron los 3 dominios de la vida usando los genes ribosomales. 
+Como una sugerencia (casi obligación) debes leer el artículo [`Carl Woese y George Fox, 1977`](https://sci-hub.st/https://www.pnas.org/content/74/11/5088).
 
 
 
