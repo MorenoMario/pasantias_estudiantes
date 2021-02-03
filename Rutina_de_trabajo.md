@@ -109,9 +109,10 @@ Lo primeros será realizar un alineamiento del gen 16S rRNA de *E. coli* usando 
 
  - `Que información tiene la salida?:` Javier... (BLAST webserver)...
 
--Descargar la secuencia de los primeros 10 Best Blast Hits (BBH)
--Cargar las secuencias del BBH en Geneius
--Realizar un alineamiento múltiple usando las secuencias del 16S descargadas ( 10 seqs. ) y el 16S rRNA de *E.coli* 
+1. Descargar la secuencia de los primeros 10 Best Blast Hits (BBH)
+2. Cargar las secuencias del BBH en Geneius
+3. Realizar un alineamiento múltiple usando las secuencias del 16S descargadas ( 10 seqs. ) y el 16S rRNA de *E.coli* 
+4. Realizar un segundo alineamiento usando las mismas seqs. anteriores y incluir esta seqs [*Colwellia psychrerythraea*](https://www.ncbi.nlm.nih.gov/nuccore/NR_114405.1)
 
 - `Que información tiene el alineamiento?:` Javier... 
 - `Que infor?:`
@@ -130,4 +131,7 @@ Lo primeros será realizar un alineamiento del gen 16S rRNA de *E. coli* usando 
 | :---  | :---  | :--- | :--- | 
 | Rellene | Rellene | Rellene | Rellene |
 
-Discutir al siguiente día 
+
+# Día 3
+
+prokka --outdir directorio --force --prefix tag --cpus n file.fast
