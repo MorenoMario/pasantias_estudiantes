@@ -102,7 +102,7 @@ Esta información es útil cuando tenemos un computador/servidor donde podamos c
 >cargar genoma en formato `.fasta` al webserver de RNAmmer y examinar la salida
 
  - `Que información tiene la salida?:` Javier... (output.txt)...
-
+ - `Que diferencian tienen las salida?:` Javier... 
 ### Extraer y descargar la región del gen 16S rRNA desde el genoma de *E. coli* en formato `.fasta` y cargarlo en `Geneious`
 
 Ahora comenzaremos con la identificación taxonómica de *E. coli*. Eso no sería posible sin `Woese y Fox`, quienes descubrieron los 3 dominios de la vida usando los genes ribosomales. 
