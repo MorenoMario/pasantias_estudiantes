@@ -91,6 +91,7 @@ Inicialmente usaremos la herramienta [`Barnap`](https://github.com/tseemann/barr
 Extraeremos las coordenadas de la posición de los genes ribosomales del genoma de *E. coli* (archivo.fasta)
 
 > barrnap --threads 10 --kingdom bac --outseq output.txt input.fasta
+*reemplazar output and input (seq.fasta)
 
 - `Que información tiene el archivo?:` Javier... (output.txt)...
 
