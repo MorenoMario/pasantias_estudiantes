@@ -170,6 +170,7 @@ Una vez eliminemos regiones del alineamiento pobremente conservadas, realizaremo
 | :---  | :---  | :--- | :--- | 
 | Rellene | Rellene | Rellene | Rellene |
 
+# Día 4
 
 ### Anotación funcional 
 
@@ -184,7 +185,6 @@ Explorar las salidas
 
 - `Anotar todos los genómas de las BAS ` Javier...
 
-# Día 4
 
 
 
