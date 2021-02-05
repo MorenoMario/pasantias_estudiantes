@@ -1,6 +1,8 @@
-##### Autor: Moreno-Pino 2021
-##### Verano 2021
-##### Genomica 1.0
+---
+title: " Tutorial for lab"
+author: "Mario Moreno-Pino"
+date: "02/01/2020"
+---
 # Día 1
 
 ## Entrar al servidor
