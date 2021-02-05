@@ -1,7 +1,7 @@
 ---
-title: " Tutorial for lab"
-author: "Mario Moreno-Pino"
-date: "02/01/2020"
+Title: " Tutorial genómica v1.0"
+Author: "Mario Moreno-Pino"
+Date: "02/01/2020"
 ---
 # Día 1
 
