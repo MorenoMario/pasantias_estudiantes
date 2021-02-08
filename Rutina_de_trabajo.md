@@ -95,14 +95,14 @@ Extraeremos las coordenadas de la posición de los genes ribosomales del genoma 
 > barrnap --threads 10 --kingdom bac --outseq output.txt input.fasta
 *reemplazar output and input (seq.fasta)
 
-- `Que información tiene el archivo?:` Javier... (output.txt)...
+- `Que información tiene el archivo? (output.txt):`  El archivo output muestra las secuencias predichas por barrnap correspondientes a las mejores opciones de secuencias 16s, 23s y 5s
 
 Esta información es útil cuando tenemos un computador/servidor donde podamos correr el programa, si no tenemos esta opción podemos ocupar la plataforma online de 
 [`RNAmmer`](http://www.cbs.dtu.dk/services/RNAmmer/)
 
->cargar genoma en formato `.fasta` al webserver de RNAmmer y examinar la salida
+>cargar genoma en formato `.fasta` al webserver de RNAmmer y examinar la salida (output.txt)
 
- - `Que información tiene la salida?:` Javier... (output.txt)...
+ - `Que información tiene la salida? (output.txt):` La salida muestra predicciones de manera ordenada correspondientes a las mejores opciones de secuencias 16s, 23s y 5s
 
 ### Extraer y descargar la región del gen 16S rRNA desde el genoma de *E. coli* en formato `.fasta` y cargarlo en `Geneious`
 
@@ -111,7 +111,7 @@ Como una sugerencia -(una fueeerte sugerencia)- debes leer el artículo [`Carl W
 
 ### Lo primeros será realizar un alineamiento del gen 16S rRNA de *E. coli* usando [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) contra la base de datos de nucleótidos del NCBI
 
- - `Que información tiene la salida?:` Javier... (BLAST webserver)...
+ - `Que información tiene la salida? (BLAST webserver):` La salida es un listado de los mejores hits (BBH) alineados en forma de mejor resultado al menos parecido según el criterio o parámetro seleccionado (Per.Ident, Query Cover, E-Value, etc)
 
 ### Tarea:
 
@@ -119,13 +119,45 @@ Como una sugerencia -(una fueeerte sugerencia)- debes leer el artículo [`Carl W
 
 |Genoma<br />name  | Coordenada<br />inicio | Coordenada<br />final | Ribosomal<br />16S/23S/5S |
 | :---  | :---  | :--- | :--- | 
-| Rellene | Rellene | Rellene | Rellene |
+| E16_8_1569.5 | 69692| 71241 | 1/0/0 |
+| E16_8_1569.5 | 71569 | 74496 | 0/1/0 |
+| E16_8_1569.5 | 74648 | 74756 | 0/0/1 |
+| E19_1_53246.88 | 50 | 1581 | 1/0/0|
+| E19_1_53246.88 | 24 | 2911 | 0/1/0 |
+| E19_1_53246.88 | 6508 | 6584 | 0/0/1 |
+| E19_3_286104.7 | 4720 | 6241 | 1/0/0 |
+| E19_3_286104.7 | 1372 | 4187 | 0/1/0 |
+| E19_3_286104.7 | 1120 | 1223 | 0/0/1 |
+| E19_4_907197.4 | 285 | 1813 | 1/0/0 |
+| E19_4_907197.4 | 378 | 3262 | 0/1/0 |
+| E19_4_907197.4 | 3376 | 3477 | 0/0/1 |
 
 - `Anotar la información de salida del alineamiento usando Blast del gen ribosomal 16S de las BAE:`
 
-|Genoma<br />name  | Best<br />Hit | %/<br />identidad  | %<br /> cobertura |
+|Genoma<br />name  | Best<br />Hit | %<br />identidad  | %<br /> cobertura |
 | :---  | :---  | :--- | :--- | 
-| Rellene | Rellene | Rellene | Rellene |
+| CP060287 (E16_8)| 16s* | 95,5 | 22,65 |
+| CP060287 (E16_8)| 23s* | 94,1 | 58,40 |
+| CP060287 (E16_8)| 5s* | 94,5 | 100 |
+| CP014616 (E16_8)| 16s* | 95,5 | 22,65 |
+| CP014616 (E16_8)| 23s* | 94,2 | 58,40 |
+| CP014616 (E16_8)| 5s* | 94,5 | 100 |
+| CP011025 (E19_1)| 16s* | 88,69 | 95 |
+| CP011025 (E19_1)| 23s* | 89,15 | 96 |
+| CP011025 (E19_1)| 5s* | 90,91 | 100 |
+| CP066804 (E19_1)| 16s* | 88,42 | 95 |
+| CP066804 (E19_1)| 23s* | 88,92 | 96 |
+| CP066804 (E19_1)| 5s* | 88 | 97 |
+| CP053352 (E19_3)| 16s* | 84,8 | 80,03 |
+| CP053352(E19_3)| 23s* | 83,3 | 53,80 |
+| CP060297 (E19_3)| 16s* | 83,2 | 80,7 |
+| CP053352 (E19_3)| 23s* | 86,4 | 27,13 |
+| CP013145 (E19_4)| 16s* | 76,6 | 75,6 |
+| CP013145 (E19_4)| 23s* | 78,3 | 61,53 |
+| CP047130 (E19_4)| 16s* | 77,1 | 75,5 |
+| CP047130 (E19_4)| 23s* | 78,1 | 68,18 |
+| CP000083 (E19_4)| 5s* | 78,4 | 99,02 |
+| CP047130 (E19_4)| 5s* | 75,6 | 76,47 |
 
 
 # Día 3
