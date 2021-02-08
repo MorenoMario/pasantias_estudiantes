@@ -210,14 +210,27 @@ Una vez eliminemos regiones del alineamiento pobremente conservadas, realizaremo
 
 Vamos a usar un anotador de genomas microbianos (bacterias y arqueas) muy usado llamado PROKKA. Javier debe leer el [Paper](https://academic.oup.com/bioinformatics/article/30/14/2068/2390517) de la herramienta.
 
->prokka
->$ prokka --outdir directorio --force --prefix tag --cpus n file.fasta
+Usaremos un genoma para realizar la anotación 
 
-Explorar las salidas
+>prokka
+>$ prokka --outdir directorio --force --prefix tag --cpus 10 file.fasta
+
+Explorar las salidas y identificar las que encuentren conocidas
+Buscar genes de interes, alguno conocido por producir metabolitos secundarios?
 
 ### Tarea:
 
 - `Anotar todos los genómas de las BAS ` Javier...
+
+Si bien la anotación funcional de los genomas no da muchisima información sobre su potencial metabolico, debemos explorar con otras herramientas los genomas para identificar módulos que sean de interes para la sintesis de metabolitos con interes biotec.
+Por esto, emplearemos la herramienta webserver [antismash](https://antismash.secondarymetabolites.org/#!/start)
+
+### Tarea:
+Identificar 3 genes relacionados con rutas de sintesis de metabolitos secundarios
+
+
+
+
 
 
 
