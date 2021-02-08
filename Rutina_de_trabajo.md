@@ -3,6 +3,8 @@ Title: " Tutorial genómica v1.0"
 Author: "Mario Moreno-Pino"
 Date: "02/01/2020"
 ---
+## El objetivo de este tutorial es caracterizar el pontencial funcional de aislados bacterianos asociados a una esponja antártica. Analizaremos los módulos de metabolitos secundario en 4 genomas bacterianos. 
+
 # Día 1
 
 ## Entrar al servidor
