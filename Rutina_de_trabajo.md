@@ -205,6 +205,19 @@ Una vez eliminemos regiones del alineamiento pobremente conservadas, realizaremo
 | Rellene | Rellene | Rellene | Rellene |
 
 # Día 4
+### Average Nucleotide Identity (ANI) 
+La identidad de nucleótidos promedio (ANI) es una medida de similitud genómica a nivel de nucleótidos entre las regiones codificantes de dos genomas. *.."Typically, the ANI 
+values between genomes of the same species are above 95% (e.g., Escherichia coli). Values below 75% are not to be trusted, and AAI should be used instead. This tool supports both complete and draft genomes (multi-fasta)"*
+
+1. Seleccionar un genoma de los que estamos trabajando
+2. Descargar el genoma más cercano a nuestro genoma, basado en el  mejor *BBH* del gen 16S rRNA, de NCBI 
+3. Subir los dos genomas ( el de interes y el descargado de la base de datos [ANI-enveomics](http://enve-omics.ce.gatech.edu/ani/) o [ANI-ezbio](https://www.ezbiocloud.net/tools/ani)
+4. Anotar la información y determinar si existen diferencias entre usar únicamente el gen 16S rRNA y el genóma completo?
+5. El 16S rRNA nos permite clasificar de buena manera nuestros genómas
+
+### Tarea:
+
+- `Computar el ANI de todos los genómas con su BBH correspondiente ` Javier...
 
 ### Anotación funcional 
 
@@ -216,17 +229,20 @@ Usaremos un genoma para realizar la anotación
 >$ prokka --outdir directorio --force --prefix tag --cpus 10 file.fasta
 
 Explorar las salidas y identificar las que encuentren conocidas
-Buscar genes de interes, alguno conocido por producir metabolitos secundarios?
+Buscar genes de interes, alguno conocido por producir metabolitos secundarios?.
+
+### Tarea:
+Identificar 3 genes relacionados con rutas de sintesis de metabolitos secundarios
 
 ### Tarea:
 
 - `Anotar todos los genómas de las BAS ` Javier...
+###  funcional 
 
 Si bien la anotación funcional de los genomas no da muchisima información sobre su potencial metabolico, debemos explorar con otras herramientas los genomas para identificar módulos que sean de interes para la sintesis de metabolitos con interes biotec.
 Por esto, emplearemos la herramienta webserver [antismash](https://antismash.secondarymetabolites.org/#!/start)
 
-### Tarea:
-Identificar 3 genes relacionados con rutas de sintesis de metabolitos secundarios
+
 
 
 
