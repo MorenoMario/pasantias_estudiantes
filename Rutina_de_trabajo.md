@@ -226,9 +226,9 @@ Vamos a usar un anotador de genomas microbianos (bacterias y arqueas) muy usado 
 Usaremos un genoma para realizar la anotación funcional de nuestro genóma y el BBH
 ```
 conda activate prokka_env
->prokka
->Prokka --outdir directorio --force --prefix tag --cpus 10 file.fasta
-conda deactivate
+prokka
+Prokka --outdir ./prokka_out --force --prefix E16_8 --cpus 20 E16_8_genoma.fasta
+*conda deactivate*
 ```
 Explorar las salidas y identificar las que encuentren conocidas
 Buscar genes de interes, alguno conocido por producir metabolitos secundarios?.
