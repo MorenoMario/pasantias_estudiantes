@@ -227,7 +227,7 @@ Usaremos un genoma para realizar la anotación funcional de nuestro genóma y el
 ```
 conda activate prokka_env
 prokka
-Prokka --outdir ./prokka_out --force --prefix E16_8 --cpus 20 E16_8_genoma.fasta
+prokka --outdir ./prokka_out --force --prefix E16_8 --cpus 20 E16_8_genoma.fasta
 *conda deactivate*
 ```
 Explorar las salidas y identificar las que encuentren conocidas
@@ -240,7 +240,7 @@ Identificar 3 genes relacionados con rutas de sintesis de metabolitos secundario
 
 - `Anotar todos los genómas de las BAS ` Javier...
 
-###  (OPC) Genómica comparativa v1.0
+### Genómica comparativa v1.0
 
 
 Si bien la anotación funcional de los genomas nos entrega información valiosa sobre el potencial metabolico de los (micro)organismos. Aún podemos explorar que genes o caracteristicas particulares poseen nuestros genomas vs los depositados.
@@ -250,7 +250,7 @@ https://github.com/microgenomics/tutorials/blob/master/pangenome.md
 
 
 ```
-	roary -f ./demo -e -n -v ./gff/*.gff
+ roary -f ./demo -e -n -v ./gff/*.gff
  python roary_plots.py core_gene_alignment.nwk gene_presence_absence.csv
 
 ```
