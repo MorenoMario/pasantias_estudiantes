@@ -176,14 +176,8 @@ Como una sugerencia -(una fueeerte sugerencia)- debes leer el artículo [`Carl W
 -Realizar una limpieza del alineamiento usando [Gblocks](http://molevol.cmima.csic.es/castresana/Gblocks_server.html), leer [documentación](http://molevol.cmima.csic.es/castresana/Gblocks/Gblocks_documentation.html)
 
 ```
+http://trimal.cgenomics.org/trimal
 
-1. sets the Minimum Number Of Sequences For A Conserved Position, i.e. it sets the threshold for the definition of conserved positions. This value must be bigger than half the number of sequences. Bigger values of this parameter DECREASE the selected number of positions.
-
-2. sets the Minimum Number Of Sequences For A Flank Position, i.e. it sets the threshold for the definition of flank positions. This value must be bigger than or equal to the Minimum Number Of Sequences For A Conserved Position. Bigger values of this parameter DECREASE the selected number of positions.
-
-3. sets the Maximum Number Of Contiguous Nonconserved Positions. All segments with contiguous nonconserved positions bigger than this value are rejected. Bigger values of this parameter INCREASE the selected number of positions.
-
-4. sets the Minimum Length Of A Block after gap cleaning. Blocks smaller than this value after gap cleaning are rejected. Bigger values of this parameter DECREASE the selected number of positions.
 ```
 ### Tarea: 
 - `investigar sobre los parametros usados en la versión webserver: son conservadoras? o muy flexibles? ` Javier...
