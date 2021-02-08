@@ -228,6 +228,7 @@ Usaremos un genoma para realizar la anotación funcional de nuestro genóma y el
 conda activate prokka_env
 >prokka
 >Prokka --outdir directorio --force --prefix tag --cpus 10 file.fasta
+conda deactivate
 ```
 Explorar las salidas y identificar las que encuentren conocidas
 Buscar genes de interes, alguno conocido por producir metabolitos secundarios?.
