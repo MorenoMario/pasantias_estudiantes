@@ -224,10 +224,11 @@ values between genomes of the same species are above 95% (e.g., Escherichia coli
 Vamos a usar un anotador de genomas microbianos (bacterias y arqueas) muy usado llamado PROKKA. Javier debe leer el [Paper](https://academic.oup.com/bioinformatics/article/30/14/2068/2390517) de la herramienta.
 
 Usaremos un genoma para realizar la anotación funcional de nuestro genóma y el BBH
-
+```
+conda activate prokka_env
 >prokka
->$ prokka --outdir directorio --force --prefix tag --cpus 10 file.fasta
-
+>Prokka --outdir directorio --force --prefix tag --cpus 10 file.fasta
+```
 Explorar las salidas y identificar las que encuentren conocidas
 Buscar genes de interes, alguno conocido por producir metabolitos secundarios?.
 
