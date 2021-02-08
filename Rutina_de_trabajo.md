@@ -173,10 +173,10 @@ Como una sugerencia -(una fueeerte sugerencia)- debes leer el artículo [`Carl W
 
 ### Hacer una filogenia del 16S rRNA usando [MEGAX](https://www.megasoftware.net/)
 
--Realizar una limpieza del alineamiento usando [Gblocks](http://molevol.cmima.csic.es/castresana/Gblocks_server.html), leer [documentación](http://molevol.cmima.csic.es/castresana/Gblocks/Gblocks_documentation.html)
+-Realizar una limpieza del alineamiento usando [TrimalAI](http://trimal.cgenomics.org/trimal) [Gblocks](http://molevol.cmima.csic.es/castresana/Gblocks_server.html), leer [documentación](http://molevol.cmima.csic.es/castresana/Gblocks/Gblocks_documentation.html)
 
 ```
-http://trimal.cgenomics.org/trimal
+trimal -automated1 -in -out
 
 ```
 ### Tarea: 
