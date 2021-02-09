@@ -253,20 +253,6 @@ Identificar 3 genes relacionados con rutas de sintesis de metabolitos secundario
 
 - `Anotar todos los genómas de las BAS ` Javier...
 
-### Genómica comparativa v1.0
-
-
-Si bien la anotación funcional de los genomas nos entrega información valiosa sobre el potencial metabolico de los (micro)organismos. Aún podemos explorar que genes o caracteristicas particulares poseen nuestros genomas vs los depositados.
-Realizaremos el análisis de genómica comparativa usando una herramienta llamada [Roary](https://github.com/sanger-pathogens/Roary/blob/master/README.md)
-
-https://github.com/microgenomics/tutorials/blob/master/pangenome.md
-
-
-```
- roary -f ./demo -e -n -v ./gff/*.gff
- python roary_plots.py core_gene_alignment.nwk gene_presence_absence.csv
-
-```
 ### Finalmente realizamos la identificación de módulos que sean relacionados con la sintesis de metabolitos con interés biotec. 
 
 Por esto, emplearemos la herramienta webserver [antismash](https://antismash.secondarymetabolites.org/#!/start)
