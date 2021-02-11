@@ -63,6 +63,10 @@ mv 02_analisis ../
 > Que formato logras identificar?
 
 `Deposita acá tu respuesta:` Se identifican 3 formatos, FASTA(.fa), GFF(.gff) y GeneBank(.gbff) respectivamente
+### Explorar en programas y ver que información tienes en cada archivo
+- `Deposita acá tu respuesta:` FASTA...
+- `Deposita acá tu respuesta:` GBK...
+- `Deposita acá tu respuesta:` GFF...
 
 > Alguna diferencia entre archivos?
 
@@ -75,10 +79,6 @@ mv 02_analisis ../
 
 Cargar los archivos de `genomas`, `GBK`  y `GFF` en Geneious
 
-### Explorar en programas y ver que información tienes en cada archivo
-- `Deposita acá tu respuesta:` FASTA...
-- `Deposita acá tu respuesta:` GBK...
-- `Deposita acá tu respuesta:` GFF...
 
 ## Identificación de genes de interes en los genomas
 
