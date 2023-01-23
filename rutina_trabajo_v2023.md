@@ -1,11 +1,11 @@
 ---
 Title: " Tutorial genómica v1.0"
 Author: "Mario Moreno-Pino"
-Date: "02/01/2020"
+Date: "23/01/2022"
 ---
-#### El objetivo de este tutorial es caracterizar el pontencial funcional de aislados bacterianos asociados a una esponja antártica. Analizaremos los módulos de metabolitos secundario en 4 genomas bacterianos. 
+#### El objetivo de este tutorial es caracterizar el pontencial funcional de aislados bacterianos asociados a una esponja antártica. Analizaremos los módulos de metabolitos secundario de 4 genomas bacterianos. 
 
-# Día 1
+# Día
 
 ## Entrar al servidor
 Antes de comenzar con cualquier tipo de trabajo en la pantalla negra, debemos aprender a conectarnos de forma remota. 
@@ -14,8 +14,8 @@ Antes de comenzar con cualquier tipo de trabajo en la pantalla negra, debemos ap
 ## En putty
 ```
 -mmorenos.ddns.net
--user: javier
--Pass: javier2021
+-user: st1
+-Pass: st12023
 ```
 
 ## Comandos básicos Linux
@@ -46,7 +46,7 @@ cd /Documentos/01_genomas
 mkdir 02_analisis
 mv 02_analisis ../
 ```
-### Tarea 1: Acceder a los genomas depositados en la carpeta "01_genomas" en tus Documentos.
+### Tarea 1: Acceder a los genomas depositados en la carpeta "01_genomas" en la carpeta *Documentos*.
 > Explorar y abrir cada uno de los archivos depositados
 > Que formato logras identificar?
 
