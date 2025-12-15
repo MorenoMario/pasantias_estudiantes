@@ -13,7 +13,7 @@ Antes de comenzar con cualquier tipo de trabajo en la pantalla negra, debemos ap
 
 ## En putty
 ```
--mmorenos.ddns.net
+-mmorenos.hopto.org
 -user: martina
 -Pass: martina26
 ```
