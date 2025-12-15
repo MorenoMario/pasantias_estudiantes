@@ -14,8 +14,8 @@ Antes de comenzar con cualquier tipo de trabajo en la pantalla negra, debemos ap
 ## En putty
 ```
 -mmorenos.ddns.net
--user: coni
--Pass: cc2024295
+-user: martina
+-Pass: martina26
 ```
 
 ## Comandos básicos Linux
